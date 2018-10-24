@@ -104,7 +104,7 @@ void ofApp::draw(){
     ofPopStyle();
 
     //how to use
-    ofDrawBitmapStringHighlight("Select mode : Push key [1 > camera, 2 > Photo, 3 > Moive]", 20,20);
+    ofDrawBitmapStringHighlight("Select mode : Push key [1 > camera, 2 > Photo, 3 > Movie]", 20,20);
     ofDrawBitmapStringHighlight("Drop file [jpg,png,gif,mov,mp4]", 20,40);
     //fps
     ofDrawBitmapStringHighlight("FPS:"+ofToString(ofGetFrameRate()), 20,60);
